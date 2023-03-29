@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: #d4d4d4;
+  color: #ededed;
 
   margin-bottom: 20px;
 `;
@@ -16,7 +16,6 @@ export const ContentList = styled.ul``;
 
 export const ListItem = styled.li`
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 
   margin-bottom: 10px;
@@ -42,7 +41,7 @@ export const Phone = styled.p`
 `;
 
 export const Link = styled.a`
-  margin-left: auto;
+  margin-left: 20px;
 `;
 
 export const ImgPhone = styled.img`
