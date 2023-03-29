@@ -28,6 +28,10 @@ p {
   margin: 0;
 }
 
+p {
+	display: inline-block;
+}
+
 img,
 picture,
 svg {
