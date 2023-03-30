@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 import {
   Container,
   Title,
@@ -62,3 +62,7 @@ export const EmergencyContent = ({onClose}) => {
     </Container>
   );
 };
+
+EmergencyContent.propTypes = {
+	onClose: PropTypes.func.isRequired,
+}
